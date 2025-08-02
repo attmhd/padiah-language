@@ -5,7 +5,7 @@ from .translator import terjemahkan_ke_python
 
 def main():
     if len(sys.argv) < 2:
-        print("Penggunaan: padang <nama_file.pdh>")
+        print("Penggunaan: padiah <nama_file.pdh>")
         sys.exit(1)
 
     # Cek versi
