@@ -8,6 +8,11 @@ def main():
         print("Penggunaan: padang <nama_file.pdh>")
         sys.exit(1)
 
+    # Cek versi
+    if sys.argv[1] in ("--version", "-v"):
+        print("padiah-language versi 0.1.0")
+        sys.exit(0)
+
     nama_file_input = sys.argv[1]
 
     # Cek apakah file ada
