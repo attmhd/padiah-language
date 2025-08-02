@@ -32,12 +32,18 @@ pip install git+https://github.com/attmhd/padiah-language.git
 Buat file dengan ekstensi `.pdh`, misal `contoh.pdh`:
 
 ```pdh
-Buek x = 5
-Kok x > 3
-    Katoan "X ciek bana!"
+Katoan "Assalamu'alaikum, Sanak!"
+Buek namo_awak = "Si Jon"
+Buek umua_awak = 30
+Katoan "Namo ambo: " + namo_awak
+Katoan "Umur ambo: " + str(umua_awak)
+
+Kok umua_awak > 25
+    Katoan "Baralek lai, sanak!"
+    Alah sasuai
 Kalau indak
-    Katoan "X ketek bana!"
-Alah sasuai
+    Katoan "Ambo masih mudo."
+    Alah sasuai
 ```
 
 Jalankan dengan perintah:
