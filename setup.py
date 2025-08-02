@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'padang = padiah.executor:main',
+            'padiah = padiah.executor:main',
         ],
     },
     author='Muhammad Attan',
