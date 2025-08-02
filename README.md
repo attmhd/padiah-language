@@ -43,7 +43,7 @@ Alah sasuai
 Jalankan dengan perintah:
 
 ```bash
-padang contoh.pdh
+padiah contoh.pdh
 ```
 
 Output yang dihasilkan:
